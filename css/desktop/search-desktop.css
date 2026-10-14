@@ -1,0 +1,45 @@
+/*قسمت سرچ ادرس فروشگاه دسکتاپ*/
+
+@keyframes animate {
+   from{
+      opacity: 0;
+     transform: translateX(-500px);
+   }
+   to{
+      opacity: 1;
+     transform: translateX(0);
+   }
+}
+
+.home-search-animate {
+    width: 100%;
+    height: 304px;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    margin-top: 90px;
+    margin-right: -10px;
+    align-items: center;
+    padding-right: 395px;
+    animation: animate 1s ease-out 0.5ms alternate forwards;
+    
+    .box-search {
+        width: 570px;
+        height: 64px;
+        background-color: rgb(101, 102, 104);
+    }
+    
+    .search {
+        margin-left: auto;
+        margin-right: 20px;
+        position: relative;
+        line-height: 64px;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    .search-svg{
+        margin-top: -44px;
+        display: block;
+        margin-right: 525px;
+    }
+}

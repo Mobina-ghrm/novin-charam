@@ -1,0 +1,10 @@
+@import url('./reset.css');
+@import url('./var.css');
+
+/*desktop*/
+@import url('./desktop/header-desktop.css');
+@import url('./desktop/slider-desktop.css');
+@import url('./desktop/product-slider-desktop.css');
+@import url('./desktop/advertising-desktop.css');
+@import url('./desktop/search-desktop.css');
+@import url('./desktop/footer-desktop.css');

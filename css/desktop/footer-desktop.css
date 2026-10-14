@@ -1,0 +1,402 @@
+/*قسمت فوتر دسکتاپ*/
+
+footer {
+    background-color: white;
+
+    .footer-top {
+        width: 100%;
+        height: 81px;
+        margin-top: 30px;
+        margin-right: -10px;
+        border-bottom: 1px solid #EEE;
+        border-top: 1px solid #EEE;
+
+        .news-letter {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .news-letter p {
+            color: black;
+            line-height: 40px;
+            margin-top: 19px;
+            font-size: 14px;
+        }
+        .Adress-inp {
+            width: 310px;
+            height: 40px;
+            position: relative;
+            margin-right: 320px;
+            top: -40px;
+            padding-right: 15px;
+            padding-left: 60px;
+            border: 1px solid black;
+            font-size: 15px;
+            color: #58595b;
+        }
+        .Adrees-but {
+            background-color: #58595B;
+            color: white;
+            width: 60px;
+            height: 40px;
+            line-height: 30px;
+            font-weight: bold;
+            border: none;
+            margin-top: -40px;
+            position: absolute;
+            font-size: 18px;
+            transition: all ease 0.5ms;
+        }
+        .Adrees-but:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+        .social-icons{
+            float: left;
+            margin-left: 20px;
+        }
+        .social-list{
+            list-style: none;
+            padding-left: 0;
+            text-align: center;
+            display: flex;
+            margin-top: -78px;
+            gap: 3px;
+            align-items: center;
+        }
+        .social-list img{
+            max-width: 100%;
+            height: auto;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+        }
+
+    }
+    
+    .footer-middle{
+        width: 100%;
+        height: 240px;
+        margin-top: 10px;
+        margin-right: -10px;
+        padding-top: 15px;
+        padding-left: 20px;
+
+        .news{
+            margin-bottom: 25px;
+            padding-right: 30px;
+            position: relative;
+            
+            .title-news{
+                font-size: 13px;
+                color: #58595B;
+                text-decoration: none;
+            }
+            .title-news:hover{
+                color: red;
+            }
+            .svg-news{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .svg-news:hover{
+                color: red;
+            }
+            .ti-news{
+                font-size: 12px;
+                color: #58595B;
+                line-height: 24px;
+                margin: 0 0 10px;
+            }
+        }
+        .media{
+            margin-bottom: 25px;
+            padding-right: 30px;
+            position: relative;
+
+            .svg-media{
+               position: absolute;
+               top: 0;
+               right: 0;
+            }
+            .title-media{
+                font-size: 13px;
+                text-decoration: none;
+                color: #58595B;
+            }
+            .title-media:hover{
+                color: red;
+            }
+            .ti-media{
+                font-size: 12px;
+                color: #58595B;
+                line-height: 24px;
+            }
+        }
+        .about-us{
+            margin-bottom: 25px;
+            padding-right: 30px;
+            position: relative;
+            
+            .svg-about{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .title-about{
+                text-decoration: none;
+                font-size: 13px;
+                color: #58595B;
+            }
+            .title-about:hover{
+                color: red;
+            }
+        }
+        .contact{
+            margin-bottom: 25px;
+            padding-right: 30px;
+            position: relative;
+            
+            .svg-contact{
+               position: absolute;
+               top: 0;
+               right: 0;
+            }
+            .title-contact{
+                text-decoration: none;
+                color: #58595B;
+                font-size: 13px;
+            }
+            .title-contact:hover{
+                color: red;
+            }
+        }
+        .Customer-service{
+            padding-right: 0;
+            padding-left: 0;
+            margin-top: -250px;
+            margin-right: 350px;
+            display: flex;
+
+            .list-service{
+                list-style: none;
+            }
+            .title-Customer{
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: bold;
+                color: #212121;
+                position: relative;
+            }
+            .title-Customer:hover{
+                color: red;
+            }
+            .ti-Customer{
+                font-size: 12px;
+                color: #58595B;
+                margin-top: 20px;
+                margin-bottom: -5px;
+            }
+            .ti-Customer:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+        
+        .with-novincharm{
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: -160px;
+            margin-right: 700px;
+            display: flex;
+            
+            .list-about{
+              list-style: none;
+            }
+            .title-with{
+              text-decoration: none;
+              font-size: 14px;
+              color: #212121;
+              font-weight: bold;
+              position: relative;
+            }
+            .title-with:hover{
+                color: red;
+            }
+            .ti-charm{
+              font-size: 12px;
+              color: #58595B;
+              margin-top: 20px;
+              margin-bottom: -5px;
+            }
+            .ti-charm:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+
+        .online-shopping-guide{
+            padding-right: 0;
+            padding-left: 0;
+            margin-top: -160px;
+            margin-right: 1000px;
+            display: flex;
+
+            .list-shopping{
+                list-style: none;
+            }
+            .title-guide{
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: bold;
+                color: #212121;
+                position: relative;
+            }
+            .title-guide:hover{
+                color: red;
+            }
+            .ti-guide{
+                font-size: 12px;
+                color: #58595B;
+                margin-top: 20px;
+                margin-bottom: -5px;
+            }
+            .ti-guide:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer-bottom{
+        width: 100%;
+        height: 135px;
+        margin-top: 30px;
+        margin-right: 1230px;
+        padding-top: 15px;
+        padding-left: 20px;
+        text-align: center;
+        z-index: 1px;
+        
+        .logo-samandehi{
+           width: 116px;
+           height: 125px;
+           background-color: rgb(243, 243, 243);
+           line-height: 125px;
+           border-radius: 4px;
+        }
+        .logo-samandehi img{
+           width: 125px;
+           height: 125px;
+           cursor: pointer;
+           padding-left: 9px;
+        }
+
+        .logo-enamad{
+            width: 125px;
+            height: 125px;
+            background-color:  rgb(243, 243, 243);
+            line-height: 136px;
+            border-radius: 4px;  
+            margin-top: -125px;   
+            margin-right: -145px;       
+        }
+        .logo-enamad img{
+            width: 125px;
+            height: 136px;
+            cursor: pointer;
+        }
+
+        .send{
+            width: 100px;
+            height: 55px;
+            text-align: center;
+            border: 1px solid #E8E8E8;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #888;
+            padding-top: 18px;
+            margin-top: -125px;
+            margin-right: -265px;
+        }
+        .send:hover{
+            border-color: #999;
+        }
+
+        .pay{
+            width: 100px;
+            height: 55px;
+            text-align: center;
+            border: 1px solid #E8E8E8;
+            font-size: 12px;
+            border-radius: 4px;
+            color: #888;
+            margin-top: -55px;
+            padding-top: 18px;
+            margin-right: -385px;
+        }
+        .pay:hover{
+            border-color: #999;
+        }
+
+        .copy{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid #eee;
+            margin-top: 85px;
+            margin-right: -1270px;
+            direction: ltr;
+        }
+        .copyright{
+            display: flex;
+            float: left;
+            margin-left: 1192px;
+            font-size: 12px;
+            color: #666;
+            line-height: 30px;
+            gap: 5px;
+        }
+        .copyright img{
+            width: 10px;
+            height: 11px;
+            color: #58595B;
+            margin-top: 8px;
+            border: 0;
+            margin-right: 5px;
+        }
+        .copyright a{
+            color: #58595B;
+            text-decoration: none;
+            transition-duration: .3s;
+            transition-property: all;
+        }
+        .copyright a:hover{
+            color: rgb(207, 5, 5);
+        }
+    }
+}
+
+/*قسمت فلش به سمت بالا*/
+
+.arrow_up{
+    display: flex;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #BFBFBF;
+    right: 30px;
+    bottom: 100px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.arrow_up img{
+    width: 17px;
+    height: 9px;
+}
+.arrow_up:hover{
+   background-color: #EB1C23;
+}

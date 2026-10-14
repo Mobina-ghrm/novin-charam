@@ -1,0 +1,453 @@
+ /*سوییپر مردانه دسکتاپ(عنوان)*/
+ .title-men {
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   .title-swiper {
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     border-left: 1px solid #d9d9d9;
+     padding-left: 20px;
+   }
+
+   .title-swiper2 {
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 14px;
+     color: black;
+     justify-content: start;
+     font-weight: 200;
+     margin-right: auto;
+   }
+
+   .title-swiper2:hover {
+     color: red;
+     cursor: pointer;
+   }
+   
+   .title-swiperg1{
+     margin-top: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     margin-right: -1070px;
+     margin-left: 5px;
+     display: flex;
+     border-bottom: 1px solid;
+     margin-bottom: -10px;
+   }
+   .title-swiperf1{
+     margin-top: 40px;
+     margin-bottom: 19px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 10px;
+     margin-right: 10px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+   .title-swiperb1{
+     margin-top: 40px;
+     margin-bottom: 18px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 780px;
+     margin-right: 10px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+ }
+
+ /*کد کلی برای محصولات سوییپر دسکتاپ*/
+ .swiper-product {
+   width: 100%;
+   height: 400px;
+   position: relative;
+   margin-top: 10px;
+ }
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .card {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   
+   .card-img-wrapper{
+    overflow: hidden;
+    position: relative;
+   }
+
+   .card-img-wrapper::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 4px;
+     background-color: transparent;
+     transition: 0.3 ease;  
+   }
+
+   .card-img {
+     overflow: hidden;
+     position: relative;
+     width: 100%;
+     display: block;
+     transition: transform 2s ease;
+     will-change: transform;
+   }
+   
+   .card-title {
+     font-size: 14px;
+     font-weight: bold;
+     color: #59595c;
+     margin-top: 10px;
+   }
+
+   .price {
+     font-size: 14px;
+     font-weight: 300;
+     color: #58595B;
+   }
+
+   &:hover {
+     .card-img {
+       transform: scale(1.15);
+       cursor: pointer;
+     }
+
+     .card-img-wrapper::after {
+       background-color: red;
+     }
+
+     .card-title {
+       color: red;
+       cursor: pointer;
+     }
+   }
+ }
+
+ /*تا اینجا کد کلی برای محصولات سوییپر دسکتاپ*/
+
+ /*سوییپر زنانه دسکتاپ(عنوان)*/
+ .title-woman {
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   .title-swiper {
+     margin-top: 36px;
+     margin-bottom: 8px;
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     border-left: 1px solid #d9d9d9;
+     padding-left: 20px;
+   }
+
+   .title-swiper2 {
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 14px;
+     color: black;
+     justify-content: start;
+     font-weight: 200;
+     margin-right: auto;
+     margin-left: 15px;
+   }
+
+   .title-swiper2:hover {
+     color: red;
+     cursor: pointer;
+   }
+
+   .title-swiperg2{
+     margin-top: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     margin-right: -1100px;
+     margin-left: 595px;
+     display: flex;
+     border-bottom: 1px solid;
+     margin-bottom: -15px;
+   }
+   .title-swiperf2{
+     margin-top: 40px;
+     margin-bottom: 15px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 700px;
+     margin-right: -580px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+   .title-swiperb2{
+     margin-top: 40px;
+     margin-bottom: 15px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 790px;
+     margin-right: -680px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+ }
+
+ /*سوییپر کیف دسکتاپ(عنوان)*/
+ .title-bag-woman {
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   .title-swiper {
+     margin-top: 65px;
+     margin-bottom: 6px;
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     border-left: 1px solid #d9d9d9;
+     padding-left: 20px;
+   }
+
+   .title-swiper2 {
+     margin-top: 65px;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: black;
+     justify-content: start;
+     font-weight: 200;
+     margin-right: auto;
+     margin-left: 10px;
+   }
+
+   .title-swiper2:hover {
+     color: red;
+     cursor: pointer;
+   }
+   .title-swiperg3{
+     margin-top: 55px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     margin-right: -1190px;
+     margin-left: 700px;
+     display: flex;
+     border-bottom: 1px solid;
+   }
+   .title-swiperf3{
+     margin-top: 55px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 800px;
+     margin-right: -685px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+   .title-swiperb3{
+     margin-top: 55px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 895px;
+     margin-right: -780px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+ }
+
+ /*سوییپر کفش مردانه دسکتاپ(عنوان)*/
+ .title-Classic-shoes {
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   .title-swiper {
+     margin-top: 60px;
+     margin-bottom: 6px;
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     border-left: 1px solid #d9d9d9;
+     padding-left: 20px;
+   }
+
+   .title-swiper2 {
+     margin-top: -30px;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: black;
+     justify-content: start;
+     font-weight: 200;
+     margin-right: 1230px;
+     margin-left: 3px;
+    
+   }
+
+   .title-swiper2:hover {
+     color: red;
+     cursor: pointer;
+   } 
+ }
+
+ /*سوییپر کفش زنانه دسکتاپ(عنوان)*/
+ .title-shoes-woman {
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   .title-swiper {
+     margin-top: 60px;
+     margin-bottom: 6px;
+     font-size: 24px;
+     font-weight: bold;
+     color: black;
+     border-left: 1px solid #d9d9d9;
+     padding-left: 22px;
+   }
+
+   .title-swiper2 {
+     margin-top: 65px;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: black;
+     justify-content: start;   
+     font-weight: 200;
+     margin-right: auto;
+     margin-left: -435px;
+   }
+    .title-swiper2:hover {
+     color: red;
+     cursor: pointer;
+   } 
+
+   .title-swiperg5 {
+     margin-top: 55px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 635px;
+     margin-right: -680px;
+     display: flex;
+     border-bottom: 1px solid;
+   }
+   .title-swiperf5{
+     margin-top: 55px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 730px;
+     margin-right: -610px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+   .title-swiperb5{
+    margin-top: 55px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 820px;
+     margin-right: -710px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+ }
+   
+  /* قسمت عنوان جدید و پرفروش و پربازدید دسکتاپ قسمت کفش کلاسیک */
+  .title-swiperg4 {
+     margin-top: -50px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 20px;
+     margin-right: 180px;
+     display: flex;
+     border-bottom: 1px solid;
+   }
+
+   .title-swiperf4 {
+     margin-top: -50px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 20px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
+
+   .title-swiperb4{
+     margin-top: -50px;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+     font-size: 14px;
+     color: #979797;
+     text-align: center;
+     font-weight: bold;
+     margin-left: 20px;
+     display: flex;
+     border-bottom: 1px solid #BFBFBF;
+   }
